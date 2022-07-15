@@ -1,4 +1,7 @@
-import React from 'react'
+const DUMMY_QUOTES = [
+  {id:'q1',author:'Akshat',text:'Learning React is fun!!!'},
+  {id:'q2',author:'Gandhi',text:'Learning React is great!!!'}
+]
 
 const AllQuotes = () => {
   return (

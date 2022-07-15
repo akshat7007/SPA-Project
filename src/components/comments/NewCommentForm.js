@@ -13,10 +13,10 @@ const NewCommentForm = (props) => {
     // send comment to server
   };
 
-  return (
+      return (
     <form className={classes.form} onSubmit={submitFormHandler}>
-        <label htmlFor="comment">Your Comment</label>
       <div className={classes.control} onSubmit={submitFormHandler}>
+        <label className={classes.label}>Your Comment</label>
         <textarea id="comment" rows="5" ref={commentTextRef}></textarea>
       </div>
       <div className={classes.actions}>
