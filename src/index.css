@@ -9,11 +9,12 @@ body {
 }
 
 .centered {
-  margin: 3rem auto;
+  /* margin: auto; */
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight:700;
 }
 
 .focused {
